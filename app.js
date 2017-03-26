@@ -39,7 +39,7 @@ $.ajax({
 
                 // Explicitly tell the width and height of a chart
                 //width: '300px',
-                        height: '250px'
+                        height: '350px'
             },
             title: {
                 text: null
