@@ -30,7 +30,16 @@ $.ajax({
 
         Highcharts.chart('container', {
             chart: {
-                type: 'spline'
+                type: 'spline',
+            // Edit chart spacing
+            spacingBottom: 5,
+            spacingTop: 5,
+            spacingLeft: 5,
+            spacingRight: 5,
+
+                // Explicitly tell the width and height of a chart
+                //width: '300px',
+                        height: '250px'
             },
             title: {
                 text: 'uMetrics Insights'
