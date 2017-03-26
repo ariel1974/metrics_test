@@ -33,7 +33,7 @@ $.ajax({
                 type: 'spline',
             // Edit chart spacing
             spacingBottom: 5,
-            spacingTop: 5,
+            spacingTop: 10,
             spacingLeft: 5,
             spacingRight: 5,
 
@@ -42,10 +42,10 @@ $.ajax({
                         height: '250px'
             },
             title: {
-                text: 'uMetrics Insights'
+                text: null
             },
             subtitle: {
-                text: 'via Librato API'
+                //text: 'via Librato API'
             },
             xAxis: {
                 type: 'datetime',
